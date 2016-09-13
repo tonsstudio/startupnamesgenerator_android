@@ -63,6 +63,8 @@
                 android:id="@+id/activity_generate_tiet"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="14sp" />
 

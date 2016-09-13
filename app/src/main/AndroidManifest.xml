@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GenerateActivity" />
+        <activity
+            android:name=".GenerateActivity"
+            android:windowSoftInputMode="adjustPan" />
         <activity android:name=".NamesActivity"></activity>
     </application>
 
