@@ -2,7 +2,7 @@
 
 Hello guys,
 
-At tonsstudio.com I did a fun little side project, with focus on the animations. 
+At tonsstudio.com I did a fun little android side project with focus on the animations and transitions. There are 3 activities total, but you almost cannot see the transitions between them.
 
 How it looks:
 
