@@ -2,7 +2,6 @@ package com.tonsstudio.startupgeneratorname;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -31,16 +30,10 @@ public class MainActivity extends AppCompatActivity {
         Animation anim = AnimationUtils.loadAnimation(getApplicationContext(),
                 R.anim.rotate);
         activityMainLogoIv.startAnimation(anim);
-        activityMainLogoIv.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                activityMainLogoIv.clearAnimation();
-            }
-        }, 3000);
+
         activityMainNewFl.animate().alpha(1).setStartDelay(3000).setDuration(500).start();
 
-        Handler h = new Handler();
-        h.postDelayed(new Runnable() {
+        activityMainNewFl.postDelayed(new Runnable() {
             @Override
             public void run() {
                 Intent i = new Intent(MainActivity.this, GenerateActivity.class);
@@ -48,6 +41,6 @@ public class MainActivity extends AppCompatActivity {
                 overridePendingTransition(0, 0);
 
             }
-        }, 4000);
+        }, 4500);
     }
 }

@@ -49,13 +49,14 @@ public class GenerateActivity extends AppCompatActivity {
         activityGenerateTiet.postDelayed(new Runnable() {
             @Override
             public void run() {
-//                activityGenerateLogoIv.animate().setDuration(1000).alpha(1).setInterpolator(new AccelerateInterpolator()).start();
+
                 if (activityGenerateLogoIv.getAlpha() == 0) {
                     activityGenerateLogoIv.animate().setDuration(250).alpha(1).setInterpolator(new AccelerateDecelerateInterpolator()).start();
                 }
                 if (acitivtyGenerateTv.getAlpha() == 0) {
                     acitivtyGenerateTv.animate().setDuration(650).setStartDelay(500).alpha(1).setInterpolator(new DecelerateInterpolator()).start();
                 }
+
                 acitivtyGenerateTv.setVisibility(View.VISIBLE);
                 activityGenerateBtn.animate().setDuration(650).setStartDelay(800).alpha(1).setInterpolator(new DecelerateInterpolator()).start();
                 activityGenerateTil.animate().setDuration(650).setStartDelay(900).alpha(1).setInterpolator(new DecelerateInterpolator()).start();
