@@ -8,4 +8,5 @@ How it looks:
 
 ![alt tag](http://tonsstudio.com/githubimages/startupnamegenerator.gif)
 
-Clone it and see how I did it. Hope it can help some to understand how you can do transitions between activities really simple.
+Get it in Play store at:
+https://play.google.com/store/apps/details?id=com.tonsstudio.startupgeneratorname
